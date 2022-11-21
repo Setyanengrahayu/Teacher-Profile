@@ -50,7 +50,7 @@
         android:id="@+id/teach"
         android:layout_width="214dp"
         android:layout_height="71dp"
-        android:text="Teach"
+        android:text="Galeri"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -7,178 +7,30 @@
     android:background="@drawable/abstrak2"
     tools:context=".Profil">
 
+
     <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="212dp"
         android:layout_height="189dp"
         android:src="@drawable/fotoprofil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintVertical_bias="0.204" />
 
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="244dp"
-        android:layout_height="31dp"
-        android:text="Nama : MUNIF, S.Pd,M.Pd"
-        android:textColor="#2B1B17"
-        android:textSize="20sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="334dp"
+        android:layout_height="220dp"
+        android:src="@drawable/id"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="272dp"
-        android:layout_height="30dp"
-        android:text="NIP : 197808162006041012"
-        android:textColor="#2B1B17"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.028"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="272dp"
-        android:layout_height="30dp"
-        android:text="NUPTK : 1148756658200063"
-        android:textColor="#2B1B17"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.028"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="328dp"
-        android:layout_height="31dp"
-        android:text="Tempat/Tanggal Lahir : Demak,16 Agustus 1978"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="194dp"
-        android:layout_height="25dp"
-        android:text="Pendidikan Tertinngi : S2"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583" />
-
-    <TextView
-        android:layout_width="106dp"
-        android:layout_height="23dp"
-        android:text="Jabatan : Guru"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.013"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="332dp"
-        android:layout_height="29dp"
-        android:text="Pangkat/Golongan : Penata Tingkat 1,Guru Muda"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.655" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="311dp"
-        android:layout_height="28dp"
-        android:text="Tugas Mengajar : SMK N 1 SAYUNG"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.695" />
 
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="28dp"
-        android:text="Nama Sekolah : SMK N 1 SAYUNG"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.036"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="350dp"
-        android:layout_height="28dp"
-        android:text="Alamat Sekolah : Jl.Raya SMG-DMK KM.14"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="347dp"
-        android:layout_height="46dp"
-        android:text="Alamat Rumah : CANDISARI RT 01/02 MRANGGEN DEMAK 59567"
-        android:textColor="#2B1B17"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
 </androidx.constraintlayout.widget.ConstraintLayout>
